@@ -1,0 +1,28 @@
+.cartitem {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+  gap: 8px;
+  background: #ffff;
+  border-radius: 2px;
+  place-items: center;
+}
+
+.cartitem_name {
+  text-decoration: none;
+  color: #171717;
+}
+.cartitem_select {
+  padding: 10px 16px;
+}
+
+.cartItem_deletebtn {
+  padding: 10px 17px;
+  color: red;
+  background: #f4f4f4;
+  border: 1px solid #171717;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}

@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
